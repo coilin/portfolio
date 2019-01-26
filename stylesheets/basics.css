@@ -1,31 +1,24 @@
 html, body {
   height: 100%;
   -webkit-font-smoothing: antialiased;
+  background-image: url(https://images.unsplash.com/photo-1509486432407-f8fb9cc99acd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=688&q=80);
+  background-size: cover;
 }
 
 h1 {
-  font-family: "Roboto Slab", serif;
-  font-size: 37px;
+  font-family: 'PT Sans Caption', Helvetica, Arial, sans-serif;
+  font-size: 64px;
   line-height: 1.2;
-  font-weight: 400;
-  color: #1a1a1a;
-}
-
-h2, h3 {
-  font-family: "Roboto Slab", serif;
-  font-size: 22px;
-  line-height: 1.2;
-  font-weight: 400;
-  color: #222222;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 p {
-  /*font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;*/
   font-family: "Noto Sans", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 28px;
+  line-height: 1.2;
   font-weight: 400;
-  color: #444444;
+  color: #ffffff;
 }
 
 p::selection {
@@ -34,35 +27,46 @@ p::selection {
 
 a:link {
     text-decoration: none;
-    color: #5597FB;
+    color: #ffeb3b;
 }
 
 a:visited {
-    color: #4A4A4A;
+    color: #74690A;
+    text-decoration: line-through;
 }
 
 a:hover {
-  color: #3885F9;
+  color: #ffeb3b;
+  text-decoration: underline;
 }
 
-#box {
-  box-shadow: 0 2px 4px 0 rgba(206, 206, 206, 0.25);
-  background-color: #ffffff;
-  border-radius: 2px;
-  color: #444444;
-  padding: 9px 17px;
-  text-align: center;
-  text-decoration: none;
+#button {
   display: inline-block;
-  margin: 5px 5px 5px 0px;
+  height: 80px;
+  margin-top: 20px;
+  margin-right: 10px;
+  line-height: 80px;
+  border: 2px solid #ffffff;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  padding: 0 35px;
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  text-decoration: none;
+  color: #ffffff;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
 
-#box:hover {
-  box-shadow: 0 2px 4px 0 rgba(206, 206, 206, 0.5);
-  background-color: #ffffff;
-  transition: 0.3s linear;
+#button:hover {
+  background-color: #ffeb3b;
+  border: 2px solid #ffeb3b;
+  color: black;
 }
 
 br {
-  margin: 40px;
+  margin-bottom: : 50px;
 }
