@@ -6,17 +6,17 @@ html, body {
 }
 
 h1 {
-  font-family: 'PT Sans Caption', Helvetica, Arial, sans-serif;
-  font-size: 58px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 52px;
   line-height: 1.2;
-  font-weight: 700;
-  color: #ffeb3b;
+  font-weight: 800;
+  color: #f9f9f9;
   padding-bottom: 25px;
 }
 
 p {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 32px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 24px;
   line-height: 1.5;
   font-weight: 400;
   color: #f9f9f9;
@@ -33,13 +33,13 @@ a:link {
 }
 
 a:visited {
-    color: #1E378C;
     text-decoration: line-through;
+    color: #1E378C;
 }
 
 a:hover {
-  color: #284ED2;
   text-decoration: underline;
+  color: #284ED2;
 }
 
 #button {
@@ -48,14 +48,14 @@ a:hover {
   margin-top: 20px;
   margin-right: 10px;
   line-height: 60px;
-  border: 2px solid #191919;
-  background-color: #191919;
+  border: 2px solid #121212;
+  background-color: #121212;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
   padding: 0 35px;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 22px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 18px;
   text-decoration: none;
   color: #ffffff;
   -moz-transition: all 0.2s ease-out;
@@ -65,9 +65,9 @@ a:hover {
 }
 
 #button:hover {
-  background-color: #ffeb3b;
-  border: 2px solid #ffeb3b;
-  color: black;
+  background-color: #315EFB;
+  border: 2px solid #315EFB;
+  color: white;
 }
 
 br {
